@@ -21,7 +21,7 @@ public class DataConnect {
 			String pwd = "Basu199502@";
 			conn = DriverManager.getConnection(url, userName, pwd);
 			stmnt = conn.createStatement();
-			String sqlQuery = "select * from employee_info";
+			String sqlQuery =  "select * from employee_info";
 			result = stmnt.executeQuery(sqlQuery);
 			while (result.next()) {
 				int id = result.getInt("id");
