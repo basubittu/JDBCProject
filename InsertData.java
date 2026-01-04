@@ -1,6 +1,7 @@
 import java.sql.*;
 
-public class InsertData {
+public class InsertData 
+{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
